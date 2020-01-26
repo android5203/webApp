@@ -1,18 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>webApp</title>
-    <link rel="stylesheet" href="./index.css">
+    <title>山东掌云控信息科技有限公司</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+    <link href="./css/animate.css" rel="stylesheet">
+    <script src="./javascript/wow.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="./javascript/swiper.js"></script>
+    <script src="./javascript/index.js"></script>
 </head>
+
 <body>
     <div class="wraper">
-        <p class="title">Lorem ipsum dolor</p>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste non id voluptas. At, optio nam qui pariatur error eum cupiditate aliquam voluptatem facere recusandae necessitatibus libero laborum quod inventore. Alias! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, laborum expedita! Fugiat odit ducimus veritatis illum, cum animi, quis mollitia fuga, reiciendis amet est repudiandae nesciunt consequuntur quos dolorem molestias! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, ducimus nesciunt natus eos nihil excepturi accusamus nostrum hic cumque consequuntur laborum cum iure tempora qui pariatur earum, ex laudantium esse.</p class="text">
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque nulla sequi, quasi vel commodi vitae est quam eius hic minus, doloremque dolore. Fuga porro perferendis magni dolorem soluta laudantium!</p>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores commodi officia doloribus. Incidunt, obcaecati, dolores reiciendis eaque, pariatur explicabo dolore quasi facere doloribus ipsa distinctio ipsum ullam deleniti eligendi facilis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident deleniti nisi at itaque accusantium, aperiam ipsum nobis maxime cumque similique veritatis velit, ad placeat obcaecati explicabo repellat eveniet error blanditiis!</p>
-    </div> 
+        <div id="top"></div>
+        <div id="headerFloat" class="headerFloat">
+            <div class="header wrap">
+                <h1 class="logo">
+                    山东掌云控信息科技有限公司
+                </h1>
+                <div class="navBar">
+                    <p><a class="navBarLinkProduct" href="#product">产品服务</a></p>
+                    <p><a class="navBarLinkCase" href="#case">案例展示</a></p>
+                    <p><a class="navBarLinkService" href="#service">服务流程</a></p>
+                    <p><a class="navBarLinkAbout" href="#about">关于我们</a></p>
+                    <p><a class="navBarLinkCustomers" href="#customers">我们的客户</a></p>
+                    <p><a class="navBarLinkContact" href="#contact">联系我们</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="headerFloatHide"></div>
+
+        <!-- Swiper -->
+        <div class="wow fadeInUp swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/banner1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/banner1.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+
+        <!-- 产品服务 -->
+        <div class="modelBox wrap">
+            <!-- id定位 -->
+            <div class="modelPosition" id="product"></div>
+            <div class="wow fadeInUp modelTitle">
+                <p class="titleBig">产品服务</p>
+                <p class="titleSm">Product service</p>
+            </div>
+            <div class="wow fadeInUp productList">
+                <div class="productItem">
+                    <div class="productImg">
+                        <img src="./img/item2.png" alt="">
+                    </div>
+                    <p class="productTitle">IT服务外包</p class="productTitle">
+                </div>
+                <div class="productItem">
+                    <div class="productImg">
+                        <img src="./img/item3.png" alt="">
+                    </div>
+                    <p class="productTitle">定制开发</p>
+                </div>
+                <div class="productItem">
+                    <div class="productImg">
+                        <img src="./img/web.png" alt="">
+                    </div>
+                    <p class="productTitle">网站建设</p>
+                </div>
+                <div class="productItem">
+                    <div class="productImg">
+                        <img src="./img/app.png" alt="">
+                    </div>
+                    <p class="productTitle">APP开发</p>
+                </div>
+                <div class="productItem">
+                    <div class="productImg">
+                        <img src="./img/wx1.png" alt="">
+                    </div>
+                    <p class="productTitle">小程序开发</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 案例展示 -->
+        <div class="modelBox wrap">
+            <div class="modelPosition" id="case"></div>
+            <div class="wow fadeInUp modelTitle">
+                <p class="titleBig">案例展示</p>
+                <p class="titleSm">Case presentation</p>
+            </div>
+            <div class="wow fadeInUp caseList">
+                <div class="caseItem">
+                    <div class="caseImg">
+                        <img src="./img/case1.jpg" alt="">
+                    </div>
+                    <p class="caseTitle">珠峰俱乐部</p>
+                </div>
+                <div class="caseItem">
+                    <div class="caseImg">
+                        <img src="./img/case2.jpg" alt="">
+                    </div>
+                    <p class="caseTitle">紫台贸易有限公司</p>
+                </div>
+                <div class="caseItem">
+                    <div class="caseImg">
+                        <img src="./img/case3.jpg" alt="">
+                    </div>
+                    <p class="caseTitle">BLACKNINJA</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 服务流程 -->
+        <div class="modelBox wrap">
+            <div class="modelPosition" id="service"></div>
+            <div class="wow fadeInUp modelTitle">
+                <p class="titleBig">服务流程</p>
+                <p class="titleSm">Service process</p>
+            </div>
+            <div class="wow fadeInUp serverList">
+                <img src="./img/serverBj.jpg" alt="">
+                <div class="serverItem">
+                    <div class="serverIcon"></div>
+                    <div class="serverTitle">沟通规划</div>
+                    <div class="serverInfo">Communication planning</div>
+                </div>
+                <div class="serverItem">
+                    <div class="serverIcon"></div>
+                    <div class="serverTitle">需求确认</div>
+                    <div class="serverInfo">Demand confirmation</div>
+                </div>
+                <div class="serverItem">
+                    <div class="serverTitle">协议签订</div>
+                    <div class="serverInfo">Agreement signed</div>
+                    <div class="serverIcon"></div>
+                </div>
+                <div class="serverItem">
+                    <div class="serverIcon"></div>
+                    <div class="serverTitle">开发测试</div>
+                    <div class="serverInfo">Development testing</div>
+                </div>
+                <div class="serverItem">
+                    <div class="serverTitle">项目交付</div>
+                    <div class="serverInfo">Project delivery</div>
+                    <div class="serverIcon"></div>
+                </div>
+                <div class="serverItem">
+                    <div class="serverIcon"></div>
+                    <div class="serverTitle">跟踪服务</div>
+                    <div class="serverInfo">Track service</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 关于我们 -->
+        <div class="modelBoxStyleTwo">
+            <div class="modelPosition" id="about"></div>
+            <div class="aboutBox">
+                <div class="wow fadeInUp aboutTitle">
+                    <p class="titleBig">关于我们</p>
+                    <p class="titleSm">About us</p>
+                </div>
+                <div class="wow fadeInUp aboutText">
+                    <p>山东掌云控科技有限公司是专业的信息化建设服务商。聚集了多名从事界面设计、交互设计、前端研发、软件工程师等，团队成员均有5年以上的项目经验，能够把握国际主流设计风格与创新理念。</p>
+                    <p>为广大新老客户提供最优质的信息化产品和服务。</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- 我们的客户 -->
+        <div class="modelBox wrap">
+            <div class="modelPosition" id="customers"></div>
+            <div class="wow fadeInUp modelTitle">
+                <p class="titleBig">我们的客户</p>
+                <p class="titleSm">Our customers</p>
+            </div>
+            <div class="wow fadeInUp customersList">
+                <div class="customersItem">
+                    <img src="./img/customers_1.png" alt="">
+                </div>
+                <div class="customersItem">
+                    <img src="./img/customers_2.png" alt="">
+                </div>
+                <div class="customersItem">
+                    <img src="./img/customers_3.png" alt="">
+                </div>
+                <div class="customersItem">
+                    <img src="./img/customers_4.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- 联系我们 -->
+        <div class="modelBox wrap">
+            <div class="modelPosition" id="contact"></div>
+            <div class="wow fadeInUp modelTitle">
+                <p class="titleBig">联系我们</p>
+                <p class="titleSm">Contact us</p>
+            </div>
+            <div class="contactBox">
+                <div class="contactText">
+                    <p class="wow fadeInUp contaceTextBig">Hi,ARE YOU READY?</p>
+                    <div class="wow fadeInUp contactTextSm">
+                        <p>准备好开始了吗？</p>
+                        <p>那就与我们取得联系吧！</p>
+                    </div>
+                    <div class="wow fadeInUp contactTextCon">
+                        <p>让我们听到您的声音!</p>
+                        <p>您可以联系我们，让我们了解您的项目需求，这是一个良好的开始 ，我们将会尽力满足您的需求。</p>
+                    </div>
+                </div>
+                <div class="contactInfo">
+                    <div class="wow fadeInUp contactItem">
+                        <img src="./img/user.png" alt="">
+                        <p>王先生</p>
+                    </div>
+                    <div class="wow fadeInUp contactItem">
+                        <img src="./img/phoneNumber.png" alt="">
+                        <p>18364658916</p>
+                    </div>
+                    <div class="wow fadeInUp contactItem">
+                        <img src="./img/wx.png" alt="">
+                        <p>18364658916</p>
+                    </div>
+                    <div class="wow fadeInUp contactItem">
+                        <img src="./img/qq.png" alt="">
+                        <p>1462807687</p>
+                    </div>
+                    <div class="wow fadeInUp contactItem">
+                        <img src="./img/email.png" alt="">
+                        <p>gx5203@aliyun.com</p>
+                    </div>
+                    <p class="wow fadeInUp contactBtnBox">
+                        <a class="contactBtn" href="http://h5.eqxiu.com/ls/8CwIpXAr">联系我们</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>
+                <span>Copyright © 2008-2016 Designed by : ICESNOW. All Rights Reserved.</span>
+                <a href="http://www.baidu.com">陕ICP备16017970号</a>
+            </p>
+            <p>技术支持：山东掌云控信息科技有限公司</p>
+        </div>
+    </div>
+
+    <div class="sideBar">
+        <div class="sideBarItem">
+            <a href="#top" class='goTop'>
+                <img src="./img/top.png" alt="">
+            </a>
+        </div>
+        <div class="sideBarItem sideBarItemQQ">
+            <a href="tencent://Message/?Uin=1462807687&websiteName=q-zone.qq.com&Menu=yes">
+                <img src="./img/qq.png" alt="">
+                <div class="sideFlort sideFlortQQ">
+                    1462807687
+                </div>
+            </a>
+        </div>
+        <div class="sideBarItem sideBarItemPhone">
+            <img src="./img/phoneNumber.png" alt="">
+            <div class="sideFlort sideFlortPhone">
+                18364658916
+            </div>
+        </div>
+        <div class="sideBarItem sideBarItemWx">
+            <img src="./img/wx.png" alt="">
+            <div class="sideFlort sideFlortWx">
+                <img src="./img/wxSide.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+            autoplay: true
+        });
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100,
+        });
+        wow.init();
+    </script>
 </body>
+
 </html>
