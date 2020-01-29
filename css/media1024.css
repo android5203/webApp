@@ -7,6 +7,7 @@
         height: 60px;
     }
     .header .logo {
+        width: 100%;
         padding-top: 60px;
         background-size: 300px auto;
         background-position: left center;
@@ -78,6 +79,7 @@
         display: none;
     }
     .serverListMobail {
+        display: block;
         padding: 0 10px;
         box-sizing: border-box;
     }
@@ -139,7 +141,11 @@
         text-align: center;
     }
     .aboutBox .aboutText {
+        width: 100%;
         margin: 0;
+    }
+    .aboutBox .titleSm {
+        font-size: 12px;
     }
     .customersList {
         flex-wrap: wrap;
