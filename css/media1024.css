@@ -1,0 +1,190 @@
+@media (max-width: 1024px) {
+    .wrap {
+        width: 100%;
+        overflow: hidden;
+    }
+    .header {
+        height: 60px;
+    }
+    .header .logo {
+        padding-top: 60px;
+        background-size: 300px auto;
+        background-position: left center;
+    }
+    .headerFloatHide {
+        height: 60px;
+    }
+    .navBar {
+        display: none;
+    }
+    .swiper-slide img {
+        height: 160px;
+    }
+    .modelTitle .titleBig {
+        font-size: 20px;
+    }
+    .modelTitle .titleSm {
+        font-size: 12px;
+        background-image: url(../img/modelTitle@x0.png);
+    }
+    .modelTitle {
+        padding: 20px 0;
+    }
+    .productList {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 0 5px;
+        box-sizing: border-box;
+    }
+    .productList .productItem {
+        width: 120px;
+        margin-bottom: 20px;
+    }
+    .productList .productItem .productImg {
+        width: 80px;
+        height: 80px;
+        padding: 20px;
+    }
+    .productList .productItem .productTitle {
+        font-size: 16px;
+    }
+    .caseList {
+        flex-wrap: wrap;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .caseList .caseItem {
+        width: 170px;
+        padding-bottom: 20px;
+    }
+    .caseList .caseItem .caseImg {
+        width: 170px;
+        padding: 20px;
+    }
+    .caseList .caseItem img {
+        width: 130px;
+        height: 130px;
+    }
+    .modelBox {
+        padding-bottom: 10px;
+    }
+    .caseList .caseItem .caseTitle {
+        font-size: 16px;
+        height: 26px;
+        line-height: 26px;
+        padding-top: 5px;
+    }
+    .serverList {
+        display: none;
+    }
+    .serverListMobail {
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .serverListMobail .serverItem {
+        background-color: #f6f6f6;
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+        padding: 10px 0;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+    .serverListMobail .serverItem .serverIcon {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #6f6f6f;
+        margin: 0 20px 0 20px;
+        border-radius: 50%;
+        transition: all .3s;
+    }
+    .serverListMobail .serverItem:hover {
+        box-shadow: 2px 2px 4px 2px rgba(0,0,0,.1);
+    }
+    .serverListMobail .serverItem:hover .serverIcon{
+        border: 1px solid #f6f6f6;
+        box-shadow: 0px -1px 2px 2px rgba(0,0,0,.2);
+        background-color: rgba(0,0,0,0);
+    }
+    .serverListMobail .serverItem .serverTitle {
+        font-size: 18px;
+        color: #3161ff;
+        height: 30px;
+        line-height: 30px;
+    }
+    .serverListMobail .serverItem .serverInfo {
+        font-size: 14px;
+        color: #6f6f6f;
+    }
+    .modelBoxStyleTwo {
+        height: 300px;
+        background-image: url(../img/aboutAsBj_1.png);
+        background-size: 100% 100%;
+    }
+    .aboutBox {
+        height: 300px;
+        width: 100%;
+        float: none;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .aboutBox .aboutTitle {
+        margin: 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+    .aboutBox .titleBig {
+        font-size: 24px;
+        width: 100%;
+        text-align: center;
+    }
+    .aboutBox .aboutText {
+        margin: 0;
+    }
+    .customersList {
+        flex-wrap: wrap;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .customersList .customersItem {
+        width: calc((100% / 2) - 10px);
+        margin-bottom: 10px;
+        height: 130px;
+    }
+    .contactBox {
+        flex-wrap: wrap;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    .contactBox .contactText .contaceTextBig {
+        display: none;
+    }
+    .contactBox .contactText .contactTextSm {
+        display: none;
+    }
+    .contactBox .contactText .contactTextCon {
+        padding-bottom: 15px;
+        font-size: 14px;
+    }
+    .contactInfo .contactItem {
+        height: 40px;
+        line-height: 40px;
+    }
+    .contactInfo .contactItem img {
+        width: 20px;
+    }
+    .contactInfo .contactBtn {
+        width: 100px;
+        height: 36px;
+        line-height: 36px;
+    }
+    .footer {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 750px)  {
+    .customersList .customersItem {
+        height: 100px;
+    }
+}

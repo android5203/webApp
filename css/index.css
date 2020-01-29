@@ -51,11 +51,11 @@
 }
 
 .header .logo {
-    width: 300px;
+    width: 400px;
     height: 0;
     overflow: hidden;
     padding-top: 76px;
-    background-image: url(../img/logo.png);
+    background-image: url(../img/logo1.png);
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -129,20 +129,18 @@
 .productList .productItem {
     width: 210px;
     box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .05);
-    transition: all .5s;
+    transition: all .3s;
     cursor: pointer;
 }
-.productList .productItem:hover {
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, .1);
-}
 .productList .productItem .productImg {
-    background-color: #6f6f6f;
-    width: 140px;
-    height: 140px;
-    padding: 36px;
+    background-color: #222;
+    width: 130px;
+    height: 130px;
+    padding: 34px;
     box-sizing: border-box;
     border-radius: 50%;
     margin: 20px auto;
+    transition: all .3s;
 }
 .productList .productItem .productImg img {
     width: 100%;
@@ -159,6 +157,15 @@
     font-size: 18px;
     color: #333333;
 }
+.productList .productItem:hover {
+    box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, .1);
+}
+.productList .productItem:hover .productImg {
+    background-color: #3877b3;
+}
+.productList .productItem:hover .productTitle {
+    color: #3877b3;
+}
 .modelBox {
     padding-bottom: 40px;
     position: relative;
@@ -173,11 +180,11 @@
     padding-top: 10px;
 }
 .caseList .caseItem {
-    width: 360px;
+    width: 300px;
 }
 .caseList .caseItem .caseImg {
-    width: 300px;
-    padding: 50px;
+    width: 240px;
+    padding: 35px;
     box-sizing: border-box;
     background-color: #eeeded;
     border-radius: 50%;
@@ -185,8 +192,8 @@
     cursor: pointer;
 }
 .caseList .caseItem img {
-    width: 200px;
-    height: 200px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,.1);
     transition: all 5s;
@@ -483,4 +490,8 @@
 .sideFlortWx img{
     width: 100px;
     height: 100px;
+}
+.linkNone {
+    color: #fff;
+    text-decoration: none;
 }

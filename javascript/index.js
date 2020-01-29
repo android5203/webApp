@@ -19,31 +19,31 @@ window.onload = function () {
             $(".navBarLinkProduct").removeClass("active");
         }
         // 案例展示
-        if(scroH >= 930 && scroH < 1450) {
+        if(scroH >= 930 && scroH < 1380) {
             $(".navBarLinkCase").addClass("active");
         } else {
             $(".navBarLinkCase").removeClass("active");
         }
         // 服务流程
-        if(scroH >= 1450 && scroH < 2020) {
+        if(scroH >= 1380 && scroH < 1950) {
             $(".navBarLinkService").addClass("active");
         } else {
             $(".navBarLinkService").removeClass("active");
         }
         // 关于我们
-        if(scroH >= 2020 && scroH < 2685) {
+        if(scroH >= 1950 && scroH < 2610) {
             $(".navBarLinkAbout").addClass("active");
         } else {
             $(".navBarLinkAbout").removeClass("active");
         }
         // 我们的客户
-        if(scroH >= 2685 && scroH < 2900) {
+        if(scroH >= 2610 && scroH < 2880) {
             $(".navBarLinkCustomers").addClass("active");
         } else {
             $(".navBarLinkCustomers").removeClass("active");
         }
         // 联系我们
-        if(scroH >= 2900) {
+        if(scroH >= 2880) {
             $(".navBarLinkContact").addClass("active");
         } else {
             $(".navBarLinkContact").removeClass("active");
@@ -66,22 +66,22 @@ window.onload = function () {
     })
     // 服务流程
     $('.navBarLinkService').click(function(){
-        $('html ,body').animate({scrollTop: 1450}, 300);
+        $('html ,body').animate({scrollTop: 1380}, 300);
         return false;
     })
     // 关于我们
     $('.navBarLinkAbout').click(function(){
-        $('html ,body').animate({scrollTop: 2020}, 300);
+        $('html ,body').animate({scrollTop: 1950}, 300);
         return false;
     })
     // 我们的客户
     $('.navBarLinkCustomers').click(function(){
-        $('html ,body').animate({scrollTop: 2685}, 300);
+        $('html ,body').animate({scrollTop: 2610}, 300);
         return false;
     })
     // 联系我们
     $('.navBarLinkContact').click(function(){
-        $('html ,body').animate({scrollTop: 2940}, 300);
+        $('html ,body').animate({scrollTop: 2880}, 300);
         return false;
     })
 
